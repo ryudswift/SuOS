@@ -86,7 +86,7 @@ const Dashboard: React.FC<DashboardProps> = ({ leads }) => {
 
   const getSectionTitle = () => {
     switch (activeSection) {
-      case 'dashboard': return 'Cold Email Automation Dashboard';
+      case 'dashboard': return 'Outreach Automation Dashboard';
       case 'campaigns': return 'Campaign Management';
       case 'leads': return 'Lead Management';
       case 'reports': return 'Reports & Analytics';
